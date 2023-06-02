@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class GeneratorScreen extends StatelessWidget {
+  const GeneratorScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
         Expanded(
           child: Center(
             child: Text(
-              'Accueil yesy',
+              'Générateur',
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,

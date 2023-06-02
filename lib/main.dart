@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pass_go/src/screens/home_screen.dart';
+import 'package:pass_go/src/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      home: const HomePage(),
     );
   }
 }
